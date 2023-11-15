@@ -1,0 +1,56 @@
+.page-text-input {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(9, 88, 207);
+}
+
+.goto-page-input {
+  outline: none;
+  width: 5rem;
+  padding: 0 10px;
+}
+.widthSmall {
+  width: 45% !important;
+}
+@media only screen and (max-width: 550px) {
+  .page-text-input {
+    font-size: 11px;
+    color: white;
+    padding-top: 4px;
+    background-color: rgb(9, 88, 207);
+  }
+  .goto-page-input {
+    outline: none;
+    width: 1.5rem;
+    padding: 0 5px;
+  }
+  .widthSmall {
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+  .widthSmall {
+    width: 90% !important;
+  }
+  .page-text-input {
+    font-size: 12px;
+    color: white;
+    padding-top: 4px;
+    background-color: rgb(9, 88, 207);
+  }
+  .goto-page-input {
+    outline: none;
+    width: 1.5rem;
+    padding: 0 5px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .widthSmall {
+    width: 80% !important;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .widthSmall {
+    width: 70% !important;
+  }
+}
